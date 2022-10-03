@@ -42,6 +42,24 @@ header {
     width: 150px;
     cursor: pointer;
 }
+/* select the p tag inside the article tag on the page */
+/* selector followed by a space and then another selector gets a reference to the present element and then the child element or elements inside of it */
+
+
+article{ padding: 20px;}
+article h3{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 14px;
+}
+/* select the p tag inside the article tag on the page*/
+article p{
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: o auto;
+}
 /*footer rules here*/
 footer{
 color: aliceblue;
